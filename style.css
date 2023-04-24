@@ -129,7 +129,7 @@ ul a {
 }
 
 .showcase-form {
-    position:relative;
+    position: relative;
     align-items: flex-start !important;
     gap: 20px;
     z-index: 5;
@@ -189,7 +189,6 @@ ul a {
     position: relative;
     animation: intro-left 1s ease-in;
     animation-iteration-count: 1;
-
 }
 
 @keyframes intro-left {
@@ -197,6 +196,7 @@ ul a {
         /* right: 50%; */
         transform: translateX(-80%);
     }
+
     100% {
         transform: translateX(0%);
 
@@ -208,6 +208,7 @@ ul a {
         /* right: 50%; */
         transform: translateX(80%);
     }
+
     100% {
         transform: translateX(0%);
 
@@ -483,24 +484,26 @@ ul a {
     .npm-text {
         gap: 10px;
     }
-  
-      @keyframes intro-left {
+
+    @keyframes intro-left {
         0% {
             transform: translateY(-80%);
         }
+
         100% {
             transform: translateY(0%);
-    
+
         }
     }
-    
+
     @keyframes intro-right {
         0% {
             transform: translateY(80%);
         }
+
         100% {
             transform: translateY(0%);
-    
+
         }
     }
 
@@ -536,13 +539,9 @@ ul a {
         padding: 10px;
     }
 
-    .header-text {
+    .header-text {}
 
-    }
-
-    .showcase-form {
-
-    }
+    .showcase-form {}
 }
 
 @media (max-width: 410px) {
@@ -575,6 +574,22 @@ ul a {
 
 .features-section .f-container {
     gap: 30px;
+}
+
+.header-left h1,
+.header-left p {
+    position: relative;
+    animation: intro-left 1s ease-in;
+    animation-iteration-count: 1;
+}
+
+.header-right img {
+    position: relative;
+    align-items: flex-start !important;
+    gap: 20px;
+    z-index: 5;
+    animation: intro-right 1s ease-in forwards;
+    animation-iteration-count: 1;
 }
 
 .feature-left {
@@ -819,9 +834,11 @@ ul a {
 .bg-dark-bl {
     background-color: var(--dark-blue);
 }
+
 .bg-light-gr {
     background-color: var(--background-lightgray-color);
 }
+
 .bg-success {
     background-color: var(--green-bg);
 }
