@@ -15,6 +15,14 @@
     --green-bg: #5cb85c;
 }
 
+/* utility classes */
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+/* utility classes */
+
 /* HOME */
 
 body {
